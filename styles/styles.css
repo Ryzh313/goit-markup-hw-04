@@ -297,6 +297,29 @@ body {
   width: 270px;
 }
 
+.features-item::before {
+  content: '';
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-white-color);
+  border-radius: 4px;
+}
+
+.features-item:nth-child(1)::before {
+  background-image: url();
+}
+.features-item:nth-child(2)::before {
+  background-image: url();
+}
+.features-item:nth-child(3)::before {
+  background-image: url();
+}
+.features-item:nth-child(4)::before {
+  background-image: url();
+}
+
 .features-item:not(:last-child) {
   margin-right: 30px;
 }

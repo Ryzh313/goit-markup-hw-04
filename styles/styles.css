@@ -433,10 +433,16 @@ body {
   border-right: 1px solid var(--border-line-color);
 }
 
+.project-link {
+  text-decoration: none;
+}
+
 .project-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  color: var(--primery-black-color);
 }
 
 .project-post {

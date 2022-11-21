@@ -221,9 +221,17 @@ body {
 
 /* =========== Герой ========== */
 .hero {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--secondary-black-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero.jpg);
+  background-color: #c4c4c4;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container-hero {
@@ -390,7 +398,13 @@ body {
   letter-spacing: 0.03em;
 }
 
-/*========== Наша команда ========== */
+/* ========= Наша команда ========= */
+
+/* ========= Постійні клієнти ========= */
+
+.clients-list {
+  display: block;
+}
 
 /*= = = = = CSS portfolio.html = = = = = */
 

@@ -307,16 +307,16 @@ body {
   border-radius: 4px;
 }
 
-.features-item:nth-child(1)::before {
+.antenna::before {
   background-image: url();
 }
-.features-item:nth-child(2)::before {
+.astronaut::before {
   background-image: url();
 }
-.features-item:nth-child(3)::before {
+.clock::before {
   background-image: url();
 }
-.features-item:nth-child(4)::before {
+.diagram::before {
   background-image: url();
 }
 

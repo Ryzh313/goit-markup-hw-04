@@ -147,7 +147,8 @@ body {
 }
 
 .link-menu {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -156,6 +157,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.link-menu-icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .menu-item:not(:first-child) {
@@ -297,27 +303,15 @@ body {
   width: 270px;
 }
 
-.features-item::before {
-  content: '';
-  display: inline-block;
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--secondary-white-color);
   border-radius: 4px;
-}
-
-.antenna::before {
-  background-image: url();
-}
-.astronaut::before {
-  background-image: url();
-}
-.clock::before {
-  background-image: url();
-}
-.diagram::before {
-  background-image: url();
 }
 
 .features-item:not(:last-child) {
@@ -426,7 +420,39 @@ body {
 /* ========= Постійні клієнти ========= */
 
 .clients-list {
-  display: block;
+  display: flex;
+  gap: 30px;
+}
+
+.clients-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 170px;
+  height: 92px;
+
+  padding: 16px 32px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.clients-item:hover,
+.clients-item:focus {
+  border: 1px solid var(--accent-blue-color);
+  /* fill: var(--accent-blue-color); */
+}
+
+.clients-icon {
+  fill: #afb1b8;
+}
+
+.clients-item:hover .clients-icon,
+.clients-item:focus .clients-icon {
+  fill: var(--accent-blue-color);
 }
 
 /*= = = = = CSS portfolio.html = = = = = */

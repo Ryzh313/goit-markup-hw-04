@@ -416,7 +416,7 @@ body {
   margin-bottom: 16px;
 }
 
-.social-item {
+.social-list {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -424,10 +424,23 @@ body {
 }
 
 .social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  outline: none;
+}
+
+.social-link:hover,
+.social-link:focus {
   background-color: var(--accent-blue-color);
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  fill: var(--primery-white-color);
 }
 
 .social-icon {

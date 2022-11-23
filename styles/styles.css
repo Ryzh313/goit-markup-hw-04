@@ -221,6 +221,50 @@ body {
 .address-link:focus {
   color: var(--accent-blue-color);
 }
+
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.container-footer-social {
+  margin-left: 93px;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.social-link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+.social-icon-footer {
+  fill: var(--primery-white-color);
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: var(--accent-blue-color);
+}
+
+.social-link-footer:hover .social-icon,
+.social-link-footer:focus .social-icon {
+  fill: var(--primery-white-color);
+}
 /*========== Верхня лінія / Футер ========== */
 
 /*= = = = = CSS index.html = = = = = */

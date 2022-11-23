@@ -351,7 +351,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--secondary-white-color);
@@ -499,34 +498,28 @@ body {
   gap: 30px;
 }
 
-.clients-item {
+.clients-link {
   display: flex;
   align-items: center;
   justify-content: center;
 
   width: 170px;
   height: 92px;
-
-  padding: 16px 32px;
-
   border: 1px solid #afb1b8;
   border-radius: 4px;
-
-  cursor: pointer;
 }
 
-.clients-item:hover,
-.clients-item:focus {
+.clients-link:hover,
+.clients-link:focus {
   border: 1px solid var(--accent-blue-color);
-  /* fill: var(--accent-blue-color); */
 }
 
 .clients-icon {
   fill: #afb1b8;
 }
 
-.clients-item:hover .clients-icon,
-.clients-item:focus .clients-icon {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   fill: var(--accent-blue-color);
 }
 

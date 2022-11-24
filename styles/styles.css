@@ -472,7 +472,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  outline: none;
+  outline: transparent;
 }
 
 .social-link:hover,
@@ -507,6 +507,8 @@ body {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
+  outline: transparent;
 }
 
 .clients-link:hover,
@@ -554,6 +556,8 @@ body {
   display: flex;
   flex-direction: column;
   text-decoration: none;
+
+  outline: transparent;
 }
 
 .project-link:hover,
